@@ -1,10 +1,15 @@
 Facebook Ads Performance Analytics Power BI Project
-Welcome to my latest Power BI analytics project and GitHub contribution! This dashboard provides a deep, data-driven look into Facebook Ads performance using real-world campaign data. My goal was to create a tool that not only displays metrics but also uncovers cost efficiency, demographic impact, and conversion trends, all powered by custom DAX measures and a strong focus on data storytelling.
+## Introduction
 
-Table of Contents
+*Project Title:* Facebook Ads Performance Analysis
+*Created By:* Rakesh Aamalepatil (https://github.com/rakeshaamalepatil)
+*Tools Used:* Power BI, DAX, Excel
+*Focus Areas:* Digital marketing metrics, audience segmentation, cost optimization
+
+## Table of Contents
 Introduction
 
-Project Description
+## Project Description
 
 Installation
 
@@ -16,19 +21,19 @@ Screenshots
 
 License
 
-Introduction
+## Introduction
 Project Title: Facebook Ads Performance Analysis Created By: Rakesh Aamalepatil Tools Used: Power BI, DAX, Excel Focus Areas: Digital marketing metrics, audience segmentation, cost optimization
 
-Project Description
+## Project Description
 This Power BI dashboard offers a comprehensive analysis of Facebook ad campaigns across key performance indicators: CPA (Cost Per Acquisition), CPC (Cost Per Click), CPM (Cost Per Mille), CTR (Click-Through Rate), and conversion rates. It is designed to be an essential tool for marketers and analysts to:
 
-Identify top-performing ads.
+## Identify top-performing ads.
 
 Optimize spending by analyzing age and gender demographics.
 
 Decode overall campaign effectiveness.
 
-Key Features
+## Key Features
 Top 5 Ad Rankings by CPA, CPC, CPM, and conversion cost
 
 Demographic Breakdown by age and gender
@@ -39,23 +44,22 @@ Custom DAX Measures for segmentation, cost efficiency, and performance scoring
 
 Interactive Filters for campaign ID, gender, and time slices
 
-Installation
+## Installation
 To explore or modify this Power BI project, follow these steps:
 
-Clone the repository:
+## Clone the repository:
 
-Bash
+git clone https://github.com/rakeshaamalepatil/FUTURE_DS_02
 
-git clone https://github.com/Sachin-Analyst/FUTURE_DS_02.git
 Install Power BI Desktop: Download and install Power BI Desktop.
 
-Open the Facebook Ads Performance Dashboard:
+## Open the Facebook Ads Performance Dashboard:
 
 Navigate to the Dashboards folder and open the .pbix file.
 
 Review the charts and measures to understand the analysis.
 
-To create a dashboard from scratch (optional):
+## To create a dashboard from scratch (optional):
 
 Navigate to the Raw Data folder in the FUTURE_DS_02 repo and download the .xlsx file.
 
@@ -63,7 +67,7 @@ Review the data in Excel and save it to your local computer.
 
 Open Power BI Desktop > Blank Report > Get data > Excel > Connect > Then choose the file on your local machine.
 
-Usage
+## Usage
 What You Can Explore
 The dashboard provides multiple avenues for insight generation, including:
 
@@ -77,12 +81,7 @@ Campaign-level performance insights
 
 Slicer-based filtering for custom views
 
-Screenshots
-Screenshot: Main Dashboard Overview
-
-Screenshot: Top Performing
-
-These are the DAX formulas created and applied.
+## These are the DAX formulas created and applied.
 
 1.CPA = DIVIDE(SUM(data[spent]), SUM(data[total_conversion]))
 
@@ -113,5 +112,5 @@ It helps you understand how often people who see an ad or content actually click
 
 Explore the DAX Measures folder for detailed breakdowns and the business logic behind each formula.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
